@@ -1,4 +1,4 @@
-# JAVA-Collections - Project 2
+# JAVA-Collections - CS1040 Project 2
 
 We were required to test the performance of several Java Collection implementations for a few methods.
 
@@ -37,11 +37,10 @@ We were required to submit a report in PDF format with a cover page and 4 sectio
 * Full Java program code used for testing
 * A comparison table of performance data
 * Brief descriptive discussions on the reasons for performance variations
+  
+___
 
-# Project Overview 
-
-![image](https://github.com/user-attachments/assets/247e000b-fbe8-4412-9f99-f812e3570b2c)
-
+# Project Overview - Performance of Java Collections
 
 This project evaluates the performance of various Java Collection implementations across four critical methods: `add`, `contain`, `remove`, and `clear`. The evaluation process is divided into three main stages: data preparation, testing, and report creation.
 
@@ -71,22 +70,7 @@ These findings highlight the importance of selecting the appropriate data struct
 
 ___
 
-
-|Collection|	Time Taken for each Method (nanoseconds)|
-|----------|	add	|contains|	remove|	clear|
-|----------|------|--------|--------|------|
-|HashSet	|269	|343	|513|	73400|
-|TreeSet	|828	777	|829|	2023|
-|LinkedHashSet|	184|	385	|146|	59488|
-|ArrayList	|179	|107239|	337408|	235387|
-|LinkedList|	315	|328727	|158602	|3262562|
-|ArrayDequeue	|519	|96929|	1278293|	461298|
-|PriorityQueue|	668	|1114904|	2454754|	316622|
-|HashMap	|319	|225220|	1867|	849|
-|TreeMap	|771	|2558703|	3340	|356|
-|LinkedHashMap|	261|	745820|	320|	1072|
-|----------|------|--------|--------|------|
-
+![Screenshot (416)](https://github.com/user-attachments/assets/623f5454-708b-4590-8dfb-cfddac6990a8)
 
 
 
